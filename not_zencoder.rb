@@ -1,3 +1,7 @@
+require 'ostruct'
+require 'fileutils'
+require 'terrapin'
+
 class NotZencoder
   KEYFRAME_INTERVAL = '90'.freeze # seconds
   SEGMENT_DURATION = '10'.freeze  # seconds
