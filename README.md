@@ -50,13 +50,13 @@ metadata = NotZencoder.identify('/path/to/input.mp4')
 ### Transcode a video
 ```ruby
 result = NotZencoder.transcode(
-  '/path/to/input.mp4',   # input file
-  '/path/to/output',      # output directory
-  'video_name',           # output name (without extension)
-  'https://cdn.example.com/videos', # URL prefix
-  NotZencoder::WIDESCREEN_720,      # encoding profile
-  3600,                   # time limit in seconds
-  true                    # create HLS segments
+  '/path/to/input.mp4',                 # input file
+  '/path/to/output',                    # output directory
+  'video_name',                         # output name (without extension)
+  'https://cdn.example.com/videos',     # URL prefix
+  NotZencoder::WIDESCREEN_720,          # encoding profile
+  3600,                                 # time limit in seconds
+  true                                  # create HLS segments
 )
 ```
 
